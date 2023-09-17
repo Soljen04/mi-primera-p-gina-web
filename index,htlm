@@ -1,1 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi Portafolio Personal</title>
+  <style>
+    /* Reset de estilos para el body */
+    body {
+      margin: 0;
+      padding: 0;
+    }
 
+    /* Estilos generales para los encabezados */
+    h1, h2 {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+    }
+
+    h1 {
+        margin-bottom: 20px;
+    }
+
+    /* Estilos para la sección de inicio */
+    #inicio {
+      padding: 50px;
+      background-color: #FFD1DC;
+      text-align: center;
+    }
+
+    #inicio img {
+      width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
+      height: 150px; /* Cambiar la altura de la imagen según tu preferencia */
+      border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
+      display: inline-block;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+
+    /* Estilos para la sección de habilidades */
+    #habilidades {
+      padding: 50px;
+      background-color: #BCE5F5;
+    }
+
+    /* Estilos para la lista de habilidades */
+    #habilidades ul {
+      list-style-type: none;
+    }
+
+    /* Estilos para la sección de proyectos */
+    #proyectos {
+      padding: 50px;
+      background-color: #FFFFC2;
+    }
+
+    /* Estilos para la lista de proyectos */
+    #proyectos ul {
+      list-style-type: none;
+    }
+
+    /* Estilos para la sección de contacto */
+    #contacto {
+      padding: 50px;
+      background-color: #DCE0EA;
+    }
+
+    /* Estilos para la lista de contacto */
+    #contacto ul {
+      list-style-type: none;
+    }
+
+    /* Estilos generales para los párrafos y listas */
+    p, ul {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      color: #333;
+    }
+
+    p {
+        max-width: 300px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Estilos para los elementos de lista */
+    li {
+      display: inline; /* Cambia a "inline-block" si quieres que tengan un ancho fijo */
+      margin-right: 10px; /* Espaciado entre los elementos de lista */
+    }
+  </style>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <!-- Sección de inicio -->
+  <section id="inicio">
+    <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Imagen de cabecera">
+    <h1>Estefany Aguilar</h1>
+    <p>Programadora web apasionada con experiencia en startups colombianas. Habilidades en HTML, CSS, JavaScript. Enfoque en interfaces de usuario atractivas y eficientes.</p>
+    <ul>
+        <!-- Enlaces a redes sociales -->
+        <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+        <li><a href="https://twitter.com/">Twitter</a></li>
+        <li><a href="https://github.com/">GitHub</a></li>
+        <!-- Agrega más enlaces a tus redes sociales aquí -->
+    </ul>
+  </section>
+
+  <!-- Sección de habilidades -->
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Otras habilidades relevantes</li>
+    </ul>
+  </section>
+
+  <!-- Sección de proyectos -->
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <ul>
+      <li>Nombre del Proyecto 1</li>
+      <li>Nombre del Proyecto 2</li>
+      <li>Nombre del Proyecto 3</li>
+      <!-- Puedes agregar más proyectos aquí -->
+    </ul>
+  </section>
+
+  <!-- Sección de contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Puedes contactarme a través de los siguientes medios:</p>
+    <ul>
+      <li>Email: tu@email.com</li>
+      <li>Teléfono: +123456789</li>
+      <li>Redes sociales: enlace a tus perfiles en redes sociales</li>
+    </ul>
+  </section>
+
+  <!-- Puedes agregar más secciones según tus necesidades -->
+
+</body>
+</html>
